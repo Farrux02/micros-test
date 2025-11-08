@@ -1,0 +1,168 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "firstName": "Иван",
+      "lastName": "Петров",
+      "birthDate": "1990-05-15",
+      "passportNumber": "AD1234567",
+      "gender": "male",
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "firstName": "Мария",
+      "lastName": "Сидорова",
+      "birthDate": "1985-12-22",
+      "passportNumber": "BC9876543",
+      "gender": "female",
+      "isActive": true
+    },
+    {
+      "id": 3,
+      "firstName": "Алексей",
+      "lastName": "Кузнецов",
+      "birthDate": "1992-08-30",
+      "passportNumber": "CD5678901",
+      "gender": "male",
+      "isActive": false
+    },
+    {
+      "id": 4,
+      "firstName": "Елена",
+      "lastName": "Васильева",
+      "birthDate": "1988-03-10",
+      "passportNumber": "EF2345678",
+      "gender": "female",
+      "isActive": true
+    },
+    {
+      "id": 5,
+      "firstName": "Дмитрий",
+      "lastName": "Михайлов",
+      "birthDate": "1995-07-18",
+      "passportNumber": "GH8901234",
+      "gender": "male",
+      "isActive": true
+    },
+    {
+      "id": 6,
+      "firstName": "Ольга",
+      "lastName": "Федорова",
+      "birthDate": "1987-11-05",
+      "passportNumber": "IJ4567890",
+      "gender": "female",
+      "isActive": true
+    },
+    {
+      "id": 7,
+      "firstName": "Сергей",
+      "lastName": "Николаев",
+      "birthDate": "1993-01-25",
+      "passportNumber": "KL1234567",
+      "gender": "male",
+      "isActive": false
+    },
+    {
+      "id": 8,
+      "firstName": "Анна",
+      "lastName": "Александрова",
+      "birthDate": "1991-09-12",
+      "passportNumber": "MN7890123",
+      "gender": "female",
+      "isActive": true
+    }
+  ],
+  "documents": [
+    {
+      "id": 1,
+      "type": "invoice",
+      "number": "ИНВ-001",
+      "date": "2024-01-15",
+      "description": "Счет-фактура за услуги консультирования",
+      "invoiceType": "standard",
+      "employeeId": 1
+    },
+    {
+      "id": 2,
+      "type": "power_of_attorney",
+      "number": "ДОВ-001",
+      "date": "2024-01-20",
+      "description": "Доверенность на представление интересов в суде",
+      "attorneyName": "Петр Иванович Смирнов",
+      "employeeId": 2
+    },
+    {
+      "id": 3,
+      "type": "invoice",
+      "number": "ИНВ-002",
+      "date": "2024-02-05",
+      "description": "Дополнительный счет-фактура к основному договору",
+      "invoiceType": "additional",
+      "employeeId": 1
+    },
+    {
+      "id": 4,
+      "type": "power_of_attorney",
+      "number": "ДОВ-002",
+      "date": "2024-02-10",
+      "description": "Доверенность на ведение переговоров с клиентами",
+      "attorneyName": "Анна Сергеевна Кузнецова",
+      "employeeId": 3
+    },
+    {
+      "id": 5,
+      "type": "invoice",
+      "number": "ИНВ-003",
+      "date": "2024-02-15",
+      "description": "Счет-фактура за поставку оборудования",
+      "invoiceType": "standard",
+      "employeeId": 4
+    },
+    {
+      "id": 6,
+      "type": "power_of_attorney",
+      "number": "ДОВ-003",
+      "date": "2024-02-20",
+      "description": "Доверенность на подписание договоров",
+      "attorneyName": "Михаил Петрович Федоров",
+      "employeeId": 5
+    },
+    {
+      "id": 7,
+      "type": "invoice",
+      "number": "ИНВ-004",
+      "date": "2024-03-01",
+      "description": "Счет-фактура за разработку программного обеспечения",
+      "invoiceType": "standard",
+      "employeeId": 6
+    },
+    {
+      "id": 8,
+      "type": "power_of_attorney",
+      "number": "ДОВ-004",
+      "date": "2024-03-05",
+      "description": "Доверенность на получение документов в государственных органах",
+      "attorneyName": "Елена Александровна Морозова",
+      "employeeId": 7
+    },
+    {
+      "id": 9,
+      "type": "invoice",
+      "number": "ИНВ-005",
+      "date": "2024-03-10",
+      "description": "Дополнительный счет-фактура за внеплановые работы",
+      "invoiceType": "additional",
+      "employeeId": 8
+    },
+    {
+      "id": 10,
+      "type": "power_of_attorney",
+      "number": "ДОВ-005",
+      "date": "2024-03-15",
+      "description": "Доверенность на представление интересов в налоговых органах",
+      "attorneyName": "Владимир Николаевич Соколов",
+      "employeeId": 2
+    }
+  ]
+}
