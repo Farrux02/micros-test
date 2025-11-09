@@ -2,7 +2,11 @@
   <v-app>
     <AppHeader />
     <AppSidebar />
-    <router-view />
+    <v-main>
+      <v-container fluid class="pa-6">
+        <router-view />
+      </v-container>
+    </v-main>
   </v-app>
 </template>
 
